@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script src="/js/browser.min.js" ></script>
+
+    <style>
+
+        .jumbotron {
+            padding-top: 6rem;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    </style>
+
+</head>
+
+<body >
+<div class="jumbotron">
+    <div class="container">
+        {{#if success_msg}}
+
+            <div class="alert alert-success">{{success_msg}}</div>
+
+        {{/if}}
+        {{#if error_msg}}
+
+            <div class="alert alert-danger ">{{error_msg}}</div>
+
+        {{/if}}
+        {{#if error}}
+
+            <div class="alert alert-danger ">{{error}}</div>
+
+        {{/if}}
+        {{{body}}}
+    </div>
+</div>
+
+<hr>
+
+
+
+
+
+<footer class="container">
+    <p>&copy; Company 2017-2018</p>
+</footer>
+
+
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
