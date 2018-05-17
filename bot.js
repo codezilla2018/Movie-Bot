@@ -6,7 +6,9 @@ var config = require('./config');
 
 var T = new Twit(config);
 
-tweetArticle();
+//scheduling to tweet in every 24 hours
+setInterval(tweetArticle,3600000*24);
+//tweetArticle();
 
 function sendTweet(message) {
 
@@ -14,7 +16,7 @@ function sendTweet(message) {
         if (err) {
             console.log(err);
         } else {
-            console.log(data);
+            console.log("tweeted");
             //console.log(response);
         }
     });
