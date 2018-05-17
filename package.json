@@ -4,6 +4,7 @@
   "description": "simple twitter bot that tweets movie trailers",
   "main": "app.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,13 +22,11 @@
   },
   "homepage": "https://github.com/codezilla2018/Movie-Bot#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
     "feed-read-parser": "^1.0.5",
-    "hbs": "~4.0.1",
+    "imdb-api": "^3.1.2",
+    "imdb-node-api": "0.0.1-beta.4",
     "node-schedule": "^1.3.0",
-    "omdb": "^0.8.0",
-    "twitter": "^1.7.1"
+    "twit": "^2.2.9",
+
   }
 }
