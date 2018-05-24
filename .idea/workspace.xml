@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a24740-fe24-4e19-8161-48f238d7d3de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.js" afterPath="$PROJECT_DIR$/bot.js" />
-    </list>
+    <list default="true" id="34a24740-fe24-4e19-8161-48f238d7d3de" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,12 +274,12 @@
       <workItem from="1526356433684" duration="4777000" />
       <workItem from="1526487127752" duration="9160000" />
       <workItem from="1526538209092" duration="2183000" />
-      <workItem from="1527133861733" duration="1784000" />
+      <workItem from="1527133861733" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40581000" />
+    <option name="totallyTimeSpent" value="40620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
