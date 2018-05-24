@@ -8,8 +8,7 @@ var T = new Twit(config);
 
 tweetArticle();
 //scheduling to tweet in every 24 hours
-//setInterval(tweetArticle,3600000*24);
-//setInterval(tweetArticle,3600000*24);
+setInterval(tweetArticle,3600000*24);
 
 
 function sendTweet(message) {
